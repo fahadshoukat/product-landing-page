@@ -1,0 +1,27 @@
+body {
+    background-color: #EEEEEE;
+    margin: 0;
+  }
+  
+  #header-img {
+    width: 400px;
+  }
+  
+  #header {
+    display: flex;
+    position: sticky;
+    top: 0;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  #nav-bar a {
+    font-size: 17px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    padding: 14px 16px;
+    justify-content: space-around;
+  }
+  
