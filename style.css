@@ -45,10 +45,10 @@ body {
 }
 
 .container {
-    max-width: 1000px;
-    width: 100%;
-    margin: 0 auto;
-  }
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
 
 .feature {
   display: flex;
@@ -119,4 +119,33 @@ body {
   font-weight: 400;
   padding: 10px;
   cursor: pointer;
+}
+
+#footer {
+  margin-top: 30px;
+  background-color: #ddd;
+  padding: 20px;
+}
+
+#footer ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#footer ul li {
+  padding: 0 10px;
+  list-style: none;
+}
+
+#footer ul li a {
+  color: #000;
+  text-decoration: none;
+}
+
+#footer span {
+  margin-top: 5px;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 0.9rem;
+  color: #444;
 }
