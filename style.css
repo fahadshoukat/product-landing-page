@@ -44,10 +44,11 @@ body {
   cursor: pointer;
 }
 
-#features {
-  width: 70vw;
-  margin: auto;
-}
+.container {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+  }
 
 .feature {
   display: flex;
