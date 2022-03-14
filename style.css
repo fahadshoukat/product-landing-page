@@ -149,3 +149,57 @@ body {
   font-size: 0.9rem;
   color: #444;
 }
+
+@media only screen and (max-width: 768px) {
+  #cards {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  #header {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+
+  #nav-bar {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  #header {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+
+  #header-img {
+    width: 90%;
+  }
+
+  #nav-bar {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #featureSection h2 {
+      text-align: center;
+  }
+
+  #features {
+      width: 90vw;
+      margin: auto;
+  }
+  .icon {
+    display: none;
+  }
+}
