@@ -43,3 +43,38 @@ body {
   margin: 15px 0px;
   cursor: pointer;
 }
+
+#features {
+    width: 70vw;
+    margin: auto;
+}
+
+.feature {
+  display: flex;
+}
+
+.icon i {
+  font-size: 50px;
+  color: darkorange;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 20vw;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100px;
+  padding: 5px;
+  width: 80vw;
+}
+
+.description h2 {
+  margin-bottom: 0px;
+}
